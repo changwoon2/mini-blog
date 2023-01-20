@@ -46,12 +46,12 @@ function PostWritePage(props) {
             setContent(event.target.value);
           }}
         </TextInput>
-        <Button>
+        <Button
           title="글작성하기" onClick=
           {() => {
             navigate("/");
           }}
-        </Button>
+        />
       </Container>
     </Wrapper>
   );
